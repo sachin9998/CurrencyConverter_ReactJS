@@ -3,7 +3,6 @@
 import { useEffect, useState } from "react";
 import CurrencyDropdown from "./DropDown";
 import { HiArrowsRightLeft } from "react-icons/hi2";
-import { update } from "firebase/database";
 
 const CurrencyConverter = () => {
 
