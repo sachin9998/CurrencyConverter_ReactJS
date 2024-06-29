@@ -1,11 +1,15 @@
 import "./App.css";
+import CurrencyConverter from "./components/CurrencyConverter";
 
 function App() {
   return (
-    <>
-      <div>Hi there</div>
-      <p>This is sachin</p>
-    </>
+    <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center">
+
+      <div className="container">
+        <CurrencyConverter />
+      </div>
+
+    </div>
   );
 }
 
